@@ -33,6 +33,6 @@ def inspect((i,j), draw_line):
     	#print find_state[0] 
     	if find_state[0] == (i,j):
     		while find_state:
-	    		draw_line(find_state[0], ANALYSIS[find_state][0], offset_obj = find_state[1], color_obj= find_state[1])
+	    		draw_line(find_state[0], ANALYSIS[find_state][0], offset_obj = None, color_obj= find_state[1])
 	    		find_state = ANALYSIS[find_state]
  
