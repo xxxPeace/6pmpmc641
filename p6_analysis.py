@@ -32,8 +32,6 @@ def inspect((i,j), draw_line):
 	for find_state in ANALYSIS:
 		if find_state[0] == (i,j):
 			#print find_state
-			temp_state = find_state
-			
 			while find_state:
 			#print find_state
 				if ANALYSIS.get(find_state):    			
